@@ -11,6 +11,8 @@
 @import 'legal.css';
 @import 'expertise.css';
 @import 'product.css';
+@import 'css/global.css';
+
 
 .page {
   margin: 0 !important;
