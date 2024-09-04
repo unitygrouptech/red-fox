@@ -1,0 +1,17 @@
+/* @import 'global.css'; */
+@import 'responsive.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'homepage.css';
+@import 'about.css';
+@import 'internal.css';
+@import 'team.css';
+@import 'contact.css';
+@import 'galeri.css';
+@import 'legal.css';
+@import 'expertise.css';
+@import 'product.css';
+
+.page {
+  margin: 0 !important;
+}

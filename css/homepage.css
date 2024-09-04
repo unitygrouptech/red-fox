@@ -1,0 +1,656 @@
+/* Banner Home */
+.section-banner-home {
+  background-position: 0 0, 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-banner-home .container {
+  /* height: calc(100vh - 90px); */
+  height: 100vh;
+  color: var(--color-white);
+  align-content: center;
+}
+
+.section-banner-home .content-wrapper {
+  width: 925px;
+}
+
+.section-banner-home .section-title {
+  line-height: 1;
+}
+
+.section-banner-home .section-subtitle {
+  padding-top: 20px;
+  /* padding-bottom: 64px; */
+  padding-bottom: 50px;
+  margin: 0px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.section-banner-home .btn-cta {
+  /* margin-top: 50px; */
+}
+
+.iso-wrapper-outter {
+  height: 211px;
+}
+
+/* 
+.data-card:first-child {
+  background-color: var(--color-white);
+}*/
+
+.iso-wrapper {
+  /* margin-top: 50px; */
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 20px;
+  font-size: 18px;
+  /* position: absolute; */
+}
+
+.iso-wrapper .iso-logo-wrapper {
+  width: 80px;
+}
+
+.iso-wrapper .iso-logo-wrapper img {
+  object-fit: contain;
+}
+
+.iso-wrapper .iso-text-wrapper {
+  display: grid;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.data-wrapper {
+  /* padding-top: 94px; */
+  padding-top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.data-card {
+  background-color: rgba(249, 249, 250, 0.05);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  border: 1px solid rgba(175, 175, 175, 0.5);
+  padding: 30px;
+  position: relative;
+}
+
+.data-card .data-number {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.data-card .data-title {
+  font-size: 18px;
+  color: #afafaf;
+}
+/* End of Banner Home */
+
+/* Section 2 - Section Kelebihan dan Component Product */
+.section-kelebihan .section-title {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.section-kelebihan .product-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.border-bottom {
+  background: #0f693a6b;
+  width: 100px;
+  height: 1px;
+  display: block;
+}
+
+/* Component Product */
+.productSwiper .swiper-wrapper.kelebihan-card-wrapper {
+  margin-top: 50px;
+}
+
+.productSwiper .swiper-button-next,
+.productSwiper .swiper-button-prev {
+  top: 25px;
+  border: 2px solid var(--color-ijo-transparan);
+  background: var(--color-white);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: var(--color-green);
+  transition: all 0.2s linear;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px;
+}
+
+.productSwiper .swiper-button-next {
+  right: 90px;
+  left: auto;
+}
+
+.productSwiper .swiper-button-prev {
+  right: 170px;
+  left: auto;
+}
+
+.productSwiper .swiper-button-next:hover,
+.productSwiper .swiper-button-prev:hover {
+  background-color: var(--color-green);
+  border-color: var(--color-green);
+  color: var(--color-white);
+  transition: all 0.2s linear;
+}
+
+.kelebihan-card .image-background {
+  position: absolute;
+  z-index: -1;
+}
+
+.productSwiper.productLearning {
+  margin-top: 200px;
+}
+
+.productLearning .swiper-slide.bisnis-management .row-atas {
+  gap: 0px;
+}
+/* End of Component Product */
+
+.kelebihan-card-wrapper {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.kelebihan-card {
+  border-radius: 12px;
+  border: 1px solid #e9e9e9;
+}
+
+.kelebihan-card .row-atas {
+  /* background: var(--color-white-2); */
+  /* background: transparent; */
+  background: #0000008f;
+  overflow: hidden;
+  padding: 30px;
+  border-bottom: 1px solid #e9e9e9;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  gap: 40px;
+  justify-items: baseline;
+  color: var(--color-black);
+}
+
+.kelebihan-card .kelebihan-number {
+  background: var(--color-white);
+  display: inline;
+  padding: 4px 14px;
+  border-radius: 50px;
+  border: 1px solid #e9e9e9;
+  color: var(--color-green);
+}
+
+.kelebihan-card .kelebihan-content {
+  gap: 20px;
+}
+
+.kelebihan-card .kelebihan-title {
+  font-size: 28px;
+  /* color: var(--color-black); */
+  color: var(--color-white);
+  margin: 0px;
+}
+
+.kelebihan-card .kelebihan-subtitle {
+  font-size: 18px;
+  color: var(--color-grey);
+  margin: 0px;
+}
+
+.kelebihan-card .row-bawah {
+  background: var(--color-white);
+  padding: 30px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.kelebihan-card .btn-more {
+  transition: all 0.2s linear;
+  border: 1px solid transparent;
+}
+
+.kelebihan-card .btn-more:hover {
+  background: var(--color-white) !important;
+  color: var(--color-green) !important;
+  border-color: var(--color-green);
+  transition: all 0.2s linear;
+}
+/* End of Section 2 - Section Kelebihan */
+
+/* Section 3 - About Us Home */
+.section-home-about {
+  background: var(--color-white-2);
+}
+
+.section-home-about .title-wrapper {
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section-home-about .section-title {
+  line-height: 1.2;
+}
+
+.section-home-about .grid-wrapper {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.section-home-about .item-wrapper {
+  position: relative;
+  display: grid;
+  gap: 30px;
+}
+
+.section-home-about .icon-wrapper {
+  background: var(--color-green);
+  color: var(--color-white);
+  width: 50px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.section-home-about .item-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin: 10px 0px;
+}
+
+/* Component Visi Misi */
+.section-visi-misi .row-title-about {
+  /* width: 750px; */
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.section-visi-misi .about-title {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-visi-misi .about-content {
+  font-size: 25px;
+}
+
+.section-visi-misi .column-wrapper {
+  grid-template-columns: 1fr max-content 1fr;
+  gap: 50px;
+}
+
+.section-visi-misi .col-visi-misi-wrapper {
+  gap: 50px;
+}
+
+.section-visi-misi h6.col-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--color-green);
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-visi-misi .col-legalitas h6.col-title {
+  text-align: center;
+}
+
+.section-visi-misi .col-legalitas .pop-up-modal-legalitas {
+  cursor: pointer;
+}
+
+.modal-image {
+  position: fixed;
+  background: #0000008f;
+  top: 0;
+  width: 100%;
+  height: 109%;
+  z-index: 9999999999;
+  display: grid;
+  align-content: center;
+  transition: all 0.3s linear;
+}
+
+.modal-image.ketutup {
+  display: none;
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.modal-image .inner-wrapper {
+  background: white;
+  width: 80%;
+  /* height: 80%; */
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  padding: 50px;
+}
+
+.modal-image .icon-close-wrapper {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+}
+/* End of Component Visi Misi */
+/* End of Section 3 - About Us Home */
+
+/* Section 4 - Home Portfolio */
+.section-hp .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.section-hp .hp-title-wrapper .inside-wrapper {
+  background: var(--color-white-2);
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e9e9e9;
+  display: grid;
+  gap: 30px;
+  align-content: end;
+  justify-content: start;
+  height: 100%;
+}
+
+.section-hp .hp-image-wrapper .image-wrapper {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-hp .hp-title-wrapper .hp-subtitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--color-green);
+  font-weight: 500;
+  margin-left: 0;
+}
+
+.hp-card-wrapper {
+  gap: 20px;
+  display: grid;
+  grid-column-start: 2;
+  grid-row: 1 / span 2;
+}
+
+.hp-card-item {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  border: 1px solid #e9e9e9;
+  /* padding: 35px 40px; */
+  padding: 40px;
+  background: rgb(248, 251, 254);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  color: #00173f;
+  transition: all 0.2s linear;
+}
+
+.hp-card-item:hover {
+  background: var(--color-green);
+  color: var(--color-white);
+  transition: all 0.2s linear;
+}
+
+.hp-card-item .hp-icon {
+  rotate: 40deg;
+  transition: all 0.2s linear;
+}
+
+.hp-card-item:hover .hp-icon {
+  rotate: 0deg;
+  transition: all 0.2s linear;
+}
+
+.hp-card-item .hp-number {
+  font-size: 18px;
+}
+
+.hp-card-item .hp-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+/* End of Section 4 - Home Portfolio */
+
+/* Section 5 - Testimonial */
+.section-gt {
+  background-color: var(--color-black);
+}
+
+.section-gt .container {
+  color: var(--color-white-2);
+  width: 85%;
+  margin-left: auto;
+}
+
+.section-gt .card-testi {
+  min-height: 410px;
+  border: 1px solid rgba(143, 154, 174, 0.4);
+  border-radius: 12px;
+  padding: 30px;
+  display: grid;
+  gap: 24px;
+}
+
+.section-gt .icon-bintang {
+  fill: var(--color-white-2);
+}
+
+.section-gt .author-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  margin-top: 30px;
+  gap: 15px;
+  align-content: center;
+}
+
+.section-gt .author-wrapper .author-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.section-gt .author-nama-posisi-wrapper {
+}
+
+.section-gt .outter-swiper-wrapper {
+  position: relative;
+  margin-top: 50px;
+}
+
+.section-gt .swiper-wrapper {
+  padding-bottom: 100px;
+}
+
+.section-gt .swiper-button-next,
+.section-gt .swiper-button-prev {
+  top: auto;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  bottom: 0px;
+  color: var(--color-white);
+  border: 1px solid rgba(143, 154, 174, 0.4);
+  border-radius: 50px;
+  transition: all 0.2s linear;
+}
+
+.section-gt .swiper-button-next:hover,
+.section-gt .swiper-button-prev:hover {
+  background: var(--color-green);
+  transition: all 0.2s linear;
+}
+
+.section-gt .swiper-button-next {
+  right: 10%;
+}
+
+.section-gt .swiper-button-prev {
+  right: 15%;
+  left: auto;
+}
+
+.section-gt .swiper-button-next:after,
+.section-gt .swiper-button-prev:after {
+  font-size: 14px;
+}
+/* End of Section 5 - Testimonial */
+
+/* Section 6 - Section Blog */
+.section-blog {
+  background: var(--color-white-2);
+}
+
+.section-blog .section-subtitle {
+  text-transform: uppercase;
+  color: var(--color-green);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section-blog .section-title {
+  margin-bottom: 30px;
+}
+
+.section-content-wrapper {
+  grid-template-columns: 490px max-content;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-blog .section-content {
+  color: var(--color-grey);
+}
+
+.blog-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 60px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.blog-wrapper .blog-card {
+  display: grid;
+  grid-template-columns: 176px max-content;
+  background: var(--color-white);
+  border: 1px solid rgba(143, 154, 174, 0.4);
+  border-radius: 8px;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+}
+
+.blog-wrapper .blog-card .image-wrapper {
+  height: 117px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-wrapper .blog-card .image-wrapper img {
+  transition: all 0.2s linear;
+}
+
+.blog-wrapper .blog-card .image-wrapper:hover img {
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+}
+
+.blog-wrapper .blog-card .blog-date {
+  color: var(--color-green);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.blog-wrapper .blog-card .blog-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+  transition: all 0.2s linear;
+}
+
+.blog-wrapper .blog-card .blog-title:hover {
+  color: var(--color-green);
+  transition: all 0.2s linear;
+}
+
+.blog-wrapper .blog-card:first-child {
+  grid-row: 1 / span 3;
+  grid-row: 1 / span 3;
+  grid-template-columns: 1fr;
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+.blog-wrapper .blog-card:first-child .image-wrapper {
+  /* height: 100%; */
+  height: 480px;
+  border-radius: 20px;
+}
+
+.blog-wrapper .blog-card:first-child .blog-content-wrapper {
+  position: absolute;
+  background: var(--color-white);
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto;
+  left: 5%;
+  bottom: -30px;
+  box-shadow: 0 10px 10px rgba(233, 230, 239, 0.3);
+  border-radius: 20px;
+}
+/* End of Section 6 - Section Blog */
+
+/* Section 7 - Section Subs */
+.section-subscribe {
+  background: var(--color-white-2);
+}
+
+.home .section-subscribe .container {
+  padding-top: 0px;
+}
+
+.section-subscribe .sub-card-wrapper {
+  background: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+  padding: 60px 15px;
+  border-radius: 20px;
+}
+/* End of Section 7 - Section Subs */

@@ -1,0 +1,32 @@
+.section-legalitas .content-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.section-legalitas .section-content {
+  gap: 20px;
+}
+
+.section-legalitas .legal-item {
+  position: relative;
+  padding-left: 45px;
+}
+
+.section-legalitas .legal-item .dot-list {
+  width: 10px;
+  height: 10px;
+  background: var(--color-green);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  left: 10px;
+  border-radius: 50%;
+}
+
+.section-legalitas .image-wrapper {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
