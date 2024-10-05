@@ -1,0 +1,168 @@
+/* Section 1 */
+.section-contact-1 .container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.section-contact-1 .section-title {
+  margin-bottom: 30px;
+}
+
+.section-contact-1 .section-content {
+  font-size: 20px;
+}
+
+.section-contact-1 .contact-form-wrapper {
+  padding: 40px 40px 13px 40px;
+  background-color: rgba(249, 249, 250, 0.05);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 3px solid rgba(175, 175, 175, 0.5);
+}
+
+.section-contact-1 .contact-form-wrapper .form-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-contact-1 .contact-form input,
+.section-contact-1 .contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 3px solid rgba(175, 175, 175, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.section-contact-1 .contact-form input:focus,
+.section-contact-1 .contact-form textarea:focus {
+  border: 3px solid var(--color-green);
+}
+
+.section-contact-1 .contact-form input[type='submit'] {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-family: var(--font-main);
+  border: 3px solid transparent;
+  padding: 15px 0px;
+  width: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.section-contact-1 .contact-form input[type='submit']:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-green);
+  color: var(--color-green);
+  transition: all 0.3s linear;
+}
+
+/* End of Section 1 */
+
+/* Section 2 */
+.section-contact-2 {
+  background: var(--color-white-2);
+}
+
+.section-contact-2 .contact-card-wrapper {
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  padding-top: 50px;
+}
+
+.contact-card-wrapper .contact-card {
+  background-color: var(--color-green);
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.contact-card-wrapper .contact-card svg {
+  stroke: var(--color-white);
+  width: 30px;
+  height: 30px;
+}
+
+.contact-card-wrapper .contact-card a {
+  color: var(--color-white);
+}
+
+.form-inner-wrapper {
+  margin-top: 50px;
+}
+
+.form-inner-wrapper p {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-inner-wrapper p br {
+  display: none;
+}
+
+.form-inner-wrapper input {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.2em;
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  outline: none;
+  border: 1px solid transparent;
+  color: var(--color-green);
+}
+
+.form-inner-wrapper input:focus {
+  border: 1px solid var(--color-green);
+}
+
+.form-inner-wrapper input[type='submit'] {
+  background: var(--color-green);
+  outline: none;
+  border: 1px solid transparent;
+  color: var(--color-white);
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.form-inner-wrapper input[type='submit']:hover {
+  border-color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-green);
+  transition: all 0.3s linear;
+}
+
+.form-inner-wrapper .wpcf7-not-valid-tip {
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+  padding: 10px;
+  left: 0px;
+  background-color: rgba(249, 249, 250, 0.05);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  border: 1px solid rgba(175, 175, 175, 0.5);
+}
+
+.form-inner-wrapper .wpcf7-spinner {
+  background-color: var(--color-white-2);
+}
+
+.form-inner-wrapper .wpcf7-spinner::before {
+  background-color: var(--color-green);
+}
+
+/* End of Section 2 */

@@ -1,0 +1,72 @@
+.page-blog-wrapper .container {
+    grid-template-columns: 70% 30%;
+    gap: 30px;
+}
+
+.page-blog-wrapper .blog-post-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.page-blog-wrapper .blog-post-card {
+    /* margin-bottom: 30px; */
+    border: 3px solid var(--color-green);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.page-blog-wrapper .blog-post-card .blog-post-image {
+    height: 150px;
+}
+
+.page-blog-wrapper .blog-post-card .blog-post-content-wrapper {
+    padding: 20px;
+}
+
+.page-blog-wrapper .blog-post-card .blog-post-content-wrapper .blog-post-title {
+    font-size: 24px;
+}
+
+.blog-post-card .btn-go-to-single-blog {
+    color: black;
+    text-decoration: underline;
+}
+
+.widget-area .wp-block-latest-posts {
+    margin: 0px;
+    line-height: 1.9;
+}
+
+.widget-area .wp-block-latest-posts {
+    margin: 0px;
+    line-height: 1.9;
+}
+
+.wrapper-pagination {
+    grid-template-columns: repeat(5, max-content);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.wrapper-pagination .page-numbers:not(:first-child):not(:last-child) {
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper-pagination .page-numbers.current {
+    font-weight: 700;
+    background: var(--color-green);
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.col-right a {
+    color: black;
+}
+
+.col-right a:hover {
+    text-decoration: underline;
+}
