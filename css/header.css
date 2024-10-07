@@ -41,6 +41,7 @@ header .site-branding .image-wrapper {
   padding: 14px 0px;
   margin: 6px 0px;
   transition: all 0.2s linear;
+  position: relative;
 }
 
 .main-navigation .nav-sub-menu a:hover {
