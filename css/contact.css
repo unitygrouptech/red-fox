@@ -165,4 +165,14 @@
   background-color: var(--color-green);
 }
 
+.contact-form-container p {
+  margin: 0px;
+}
+
+.contact-form-container .contact-form-row-name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px
+}
+
 /* End of Section 2 */
