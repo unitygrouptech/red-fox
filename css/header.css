@@ -50,8 +50,25 @@ header .site-branding .image-wrapper {
 }
 
 .main-navigation a:hover {
-  color: var(--color-accent);
+  color: var(--color-white);
   transition: all 0.2s linear;
+}
+
+.main-navigation a:after {
+  content: '';
+  width: 130%;
+  height: 0%;
+  position: absolute;
+  left: -15%;
+  bottom: 0;
+  background: var(--color-black);
+  transition: .3s all ease;
+  z-index: -1;
+}
+
+.main-navigation a:hover:after {
+  height: 100%;
+  transition: .3s all ease;
 }
 
 .main-navigation .nav-item:last-child {
