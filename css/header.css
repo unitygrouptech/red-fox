@@ -54,7 +54,7 @@ header .site-branding .image-wrapper {
   transition: all 0.2s linear;
 }
 
-.main-navigation a:after {
+.main-navigation a:not(:last-child):after {
   content: '';
   width: 130%;
   height: 0%;
@@ -66,7 +66,7 @@ header .site-branding .image-wrapper {
   z-index: -1;
 }
 
-.main-navigation a:hover:after {
+.main-navigation a:not(:last-child):hover:after {
   height: 100%;
   transition: .3s all ease;
 }
