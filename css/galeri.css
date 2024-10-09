@@ -38,6 +38,11 @@
   cursor: pointer;
 }
 
+.galeri-pagination .page-btn:disabled {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
 .galeri-pagination {
   padding-top: 50px;
   display: grid;
