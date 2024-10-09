@@ -33,6 +33,11 @@
   justify-content: center;
 }
 
+.filter-btn:hover,
+.galeri-pagination .page-btn:hover {
+  cursor: pointer;
+}
+
 .galeri-pagination {
   padding-top: 50px;
   display: grid;
