@@ -13,6 +13,7 @@
 @import 'product.css';
 @import 'career.css';
 @import 'blog.css';
+@import 'organization.css';
 
 .page {
   margin: 0 !important;
