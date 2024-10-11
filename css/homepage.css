@@ -667,3 +667,121 @@
 }
 
 /* End of Section 7 - Section Subs */
+
+@media screen and (max-width: 767px) {
+  .section-banner-home .container {
+    padding-top: 150px !important;
+    width: 90%;
+  }
+
+  .section-banner-home .content-wrapper,
+  .section-banner-home .section-subtitle {
+    width: 100%;
+  }
+
+  .section-banner-home .container {
+    height: 100%;
+  }
+
+  .section-banner-home .section-title {
+    font-size: 58px;
+  }
+
+  .data-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .data-card {
+    padding: 5px 15px;
+  }
+
+  .iso-wrapper {
+    gap: 10px;
+  }
+
+  .iso-wrapper .iso-text-wrapper,
+  .data-card .data-title,
+  .section-visi-misi .about-content {
+    font-size: 14px;
+  }
+
+  .data-card .data-number {
+    font-size: 24px;
+  }
+
+  .iso-wrapper .iso-logo-wrapper {
+    width: 40px;
+  }
+
+  .section-visi-misi .about-title,
+  .section-kelebihan .section-title {
+    font-size: 30px;
+  }
+
+  .section-visi-misi .column-wrapper {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .section-visi-misi .col-divider,
+  .section-hp .hp-image-wrapper,
+  .blog-wrapper .blog-card:first-child {
+    display: none;
+  }
+
+  .productSwiper .swiper-button-next {
+    right: 0px;
+  }
+
+  .productSwiper .swiper-button-prev {
+    right: 60px;
+  }
+
+  .section-kelebihan .product-title {
+    width: 50%;
+  }
+
+  .productSwiper.productLearning {
+    margin-top: 100px;
+  }
+
+  .section-hp .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .hp-card-wrapper {
+    grid-column-start: auto;
+    grid-row: auto;
+  }
+
+  .section-hp .hp-title-wrapper .inside-wrapper {
+    gap: 15px;
+
+  }
+
+  .hp-card-item {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .hp-card-item .hp-title {
+    font-size: 16px;
+  }
+
+  .section-gt .container {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .section-gt .swiper-button-prev {
+    right: 30%;
+  }
+
+  .blog-wrapper,
+  .section-content-wrapper,
+  .blog-wrapper .blog-card {
+    grid-template-columns: 1fr;
+  }
+}
