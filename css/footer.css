@@ -42,35 +42,35 @@
 }
 
 /* Subscribe form */
-.contact-subscribe-wrapper{
+.contact-subscribe-wrapper {
   width: 498px;
   margin: 0 auto;
 }
 
-.subscribe-box p{
+.subscribe-box p {
   display: grid;
   grid-template-columns: repeat(2, max-content);
   gap: 16px;
   margin-bottom: 0px;
 }
 
-.subscribe-box p br{
+.subscribe-box p br {
   display: none;
 }
 
-.subscribe-box input{
+.subscribe-box input {
   height: 56px;
   padding: 16px 20px;
   border-radius: 4px;
   font-size: 16px;
 }
 
-.subscribe-box input.subs-email{
+.subscribe-box input.subs-email {
   width: 360px;
   outline: none;
 }
 
-.subscribe-box input[type=submit]{
+.subscribe-box input[type=submit] {
   background: var(--color-green);
   outline: none;
   color: var(--color-white);
@@ -79,31 +79,59 @@
   transition: .3s all linear;
 }
 
-.subscribe-box input[type=submit]:hover{
+.subscribe-box input[type=submit]:hover {
   background: var(--color-white);
   color: var(--color-green);
   transition: .3s all linear;
 }
 
-.form-subs{
+.form-subs {
   position: relative;
   width: 498px;
   margin: 0 auto;
 }
 
-.form-subs .wpcf7-response-output{
+.form-subs .wpcf7-response-output {
   /* display: none; */
   position: relative;
-  botto: 0!important;
-  left: auto!important;
-  right: auto!important;
-  margin: 0 auto!important;
-  text-align: center!important;
+  botto: 0 !important;
+  left: auto !important;
+  right: auto !important;
+  margin: 0 auto !important;
+  text-align: center !important;
 }
 
-.subscribe-box .wpcf7-not-valid-tip{
+.subscribe-box .wpcf7-not-valid-tip {
   position: absolute;
   bottom: -42px;
   left: 72px;
 }
+
 /* End of Subscribe Form */
+
+
+@media screen and (max-width: 767px) {
+
+  .subscribe-box p,
+  .site-footer .container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-content-wrapper {
+    gap: 20px;
+  }
+
+  .form-subs,
+  .contact-subscribe-wrapper,
+  .subscribe-box input.subs-email {
+    width: 100%;
+  }
+
+  .subscribe-box p {
+    justify-items: flex-start;
+  }
+
+  .site-footer .footer-menu-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
