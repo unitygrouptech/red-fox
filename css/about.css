@@ -141,6 +141,7 @@
   .section-banner-about .image-wrapper {
     width: 100% !important;
     height: auto !important;
+    border-radius: 20px;
   }
 
   .section-home-about .title-wrapper {
