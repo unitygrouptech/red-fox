@@ -140,10 +140,14 @@
 /* End of Section Strategi */
 
 @media screen and (max-width: 767px) {
+  .section-banner-about .content-wrapper {
+    width: 90% !important;
+  }
+
   .section-banner-about .image-wrapper {
     width: 100% !important;
     height: auto !important;
-    border-radius: 20px!important;
+    border-radius: 20px !important;
   }
 
   .section-home-about .title-wrapper,
