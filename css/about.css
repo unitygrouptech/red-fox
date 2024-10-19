@@ -149,9 +149,10 @@
   }
 
   .section-banner-about .image-wrapper {
-    width: 100% !important;
+    /* width: 100% !important;
     height: auto !important;
-    border-radius: 20px !important;
+    border-radius: 20px !important; */
+    display: none;
   }
 
   .section-home-about .title-wrapper,
