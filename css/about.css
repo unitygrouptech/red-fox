@@ -142,4 +142,8 @@
     width: 100% !important;
     height: auto !important;
   }
+
+  .section-home-about .title-wrapper {
+    width: 100% !important;
+  }
 }
