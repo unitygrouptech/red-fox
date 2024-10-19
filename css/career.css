@@ -62,6 +62,10 @@
     border: 1px solid var(--color-black);
 }
 
+.page-career-wrapper .content-wrapper .two-col-wrapper .col-left .content-title{
+    padding-bottom: 33px;
+}
+
 .page-career-wrapper .content-wrapper .two-col-wrapper .content-title {
     line-height: 1em;
 }
