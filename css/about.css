@@ -159,4 +159,17 @@
   .section-client-logo .content-wrapper {
     width: 100% !important;
   }
+
+  .section-home-about .grid-wrapper,
+  .section-strategi .container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .section-strategi .card-wrapper {
+    gap: 10px !important;
+  }
+
+  .data-card {
+    border-radius: 5px !important;
+  }
 }
