@@ -700,11 +700,11 @@
     gap: 10px;
   }
 
-  .iso-wrapper .iso-text-wrapper {
+  .iso-wrapper .iso-text-wrapper,
+  .data-card .data-title {
     font-size: 14px;
   }
 
-  .data-card .data-title,
   .section-visi-misi .about-content {
     font-size: 18px;
   }
