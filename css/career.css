@@ -29,3 +29,44 @@
     transition: all 0.2s linear;
     border: 1px solid var(--color-black);
 }
+
+.page-career-wrapper .content-wrapper {
+    padding: 30px 0px;
+}
+
+.page-career-wrapper .content-wrapper .two-col-wrapper {
+    padding-bottom: 30px;
+}
+
+.page-career-wrapper .content-wrapper ul {
+    margin: 0px;
+    line-height: 2em;
+}
+
+.page-career-wrapper .btn-apply {
+    background: var(--color-black);
+    color: var(--color-white) !important;
+    width: 200px;
+    border-radius: 7px;
+    color: var(--color-white) !important;
+    height: 51px;
+    display: grid !important;
+    align-content: center;
+    justify-content: center;
+}
+
+.page-career-wrapper .btn-apply:hover {
+    background: var(--color-white);
+    color: var(--color-green) !important;
+    transition: all 0.2s linear;
+    border: 1px solid var(--color-black);
+}
+
+.page-career-wrapper .content-wrapper .two-col-wrapper .content-title {
+    line-height: 1em;
+}
+
+.page-career-wrapper .content-wrapper .two-col-wrapper .title-desc {
+    color: red;
+    font-size: 14px;
+}
