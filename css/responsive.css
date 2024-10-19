@@ -12,11 +12,12 @@
 
     /* Banner Internal */
     .section-banner-about .content-wrapper {
-        width: 100%!important;
+        width: 100% !important;
     }
 
     /* Career Page  */
     .page-career-wrapper .content-wrapper .two-col-wrapper {
         grid-template-columns: 1fr !important;
+        gap: 30px;
     }
 }
