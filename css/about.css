@@ -144,6 +144,10 @@
     width: 90% !important;
   }
 
+  .section-banner-about .container {
+    height: 100% !important;
+  }
+
   .section-banner-about .image-wrapper {
     width: 100% !important;
     height: auto !important;
