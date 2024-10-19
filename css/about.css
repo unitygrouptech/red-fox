@@ -44,10 +44,12 @@
 
 .section-banner-about .section-title {
   font-size: 80px;
+  z-index: 20;
 }
 
 .section-banner-about .section-subtitle {
   font-size: 20px;
+  z-index: 20;
   /* text-align: justify; */
 }
 
@@ -141,10 +143,10 @@
   .section-banner-about .image-wrapper {
     width: 100% !important;
     height: auto !important;
-    border-radius: 20px;
   }
 
-  .section-home-about .title-wrapper {
+  .section-home-about .title-wrapper,
+  .section-client-logo .content-wrapper {
     width: 100% !important;
   }
 }
