@@ -136,3 +136,10 @@
 }
 
 /* End of Section Strategi */
+
+@media screen and (max-width: 767px) {
+  .section-banner-about .image-wrapper {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
