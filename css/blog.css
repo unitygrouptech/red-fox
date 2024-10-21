@@ -82,7 +82,8 @@
         gap: 15px;
     }
     
-    .page-blog-wrapper .btn-accent {
+    .page-blog-wrapper .btn-accent,
+    .filter-galeri-wrapper {
         width: 100px !important;
     }
 
