@@ -77,4 +77,8 @@
     .page-blog-wrapper .blog-post-wrapper {
         grid-template-columns: 1fr !important;
     }
+
+    .wrapper-pagination {
+        gap: 15px;
+    }
 }
