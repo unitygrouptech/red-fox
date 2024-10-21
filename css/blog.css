@@ -81,9 +81,13 @@
     .wrapper-pagination {
         gap: 15px;
     }
-
     
     .page-blog-wrapper .btn-accent {
         width: 100px !important;
+    }
+
+    .section-galeri .galeri-box .galeri-card,
+    .galeri-box .galeri-card .image-wrapper {
+        height: 170px !important;
     }
 }
