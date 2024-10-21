@@ -10,6 +10,7 @@
   border-radius: 10px;
   height: 400px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .galeri-box .galeri-card .image-wrapper {
