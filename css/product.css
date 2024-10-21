@@ -57,3 +57,9 @@
    */
   height: 300px;
 }
+
+@media screen and (max-width: 767px) {
+  .section-page-product .product-inner-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+}
