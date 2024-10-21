@@ -179,12 +179,13 @@
 /* End of Section 2 */
 @media screen and (max-width: 767px) {
 
-  .section-contact-1 .container {
+  .section-contact-1 .container,
+  .section-contact-2 .contact-card-wrapper {
     grid-template-columns: 1fr !important;
   }
 
   .section-contact-2 .contact-card-wrapper {
-    grid-template-columns: 1fr !important;
+    gap: 20px !important;
   }
 
   .contact-card-wrapper .contact-card {
