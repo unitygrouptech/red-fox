@@ -70,3 +70,11 @@
 .col-right a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 767px) {
+
+    .page-blog-wrapper .container,
+    .page-blog-wrapper .blog-post-wrapper {
+        grid-template-columns: 1fr !important;
+    }
+}
