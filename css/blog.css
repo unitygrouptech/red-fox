@@ -81,10 +81,19 @@
     .wrapper-pagination {
         gap: 15px;
     }
-    
-    .page-blog-wrapper .btn-accent,
+
+    .filter-galeri-wrapper {
+        overflow-x: scroll;
+    }
+
+    .page-blog-wrapper .btn-accent {
+        width: 100px !important;
+    }
+
+    .filter-btn,
     .galeri-pagination .page-btn {
-        width: 100px!important;
+        width: auto !important;
+        grid-template-columns: max-content;
     }
 
     .section-galeri .galeri-box .galeri-card,
