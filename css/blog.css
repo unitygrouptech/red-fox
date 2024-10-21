@@ -81,4 +81,9 @@
     .wrapper-pagination {
         gap: 15px;
     }
+
+    
+    .page-blog-wrapper .btn-accent {
+        width: 100px !important;
+    }
 }
