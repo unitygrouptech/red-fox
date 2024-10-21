@@ -177,10 +177,17 @@
 }
 
 /* End of Section 2 */
-
 @media screen and (max-width: 767px) {
 
   .section-contact-1 .container {
     grid-template-columns: 1fr !important;
+  }
+
+  .section-contact-2 .contact-card-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  .contact-card-wrapper .contact-card {
+    padding: 30px !important;
   }
 }
