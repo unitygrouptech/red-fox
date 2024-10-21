@@ -88,6 +88,6 @@
 
     .section-galeri .galeri-box .galeri-card,
     .galeri-box .galeri-card .image-wrapper {
-        height: 170px !important;
+        height: 110px !important;
     }
 }
