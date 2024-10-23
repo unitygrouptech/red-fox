@@ -10,3 +10,13 @@
     font-weight: 700;
     list-style: none;
 }
+
+.section-faq .item-wrapper summary .icon-drop {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.section-faq .item-wrapper .answer-wrapper {
+    padding: 30px 20px;
+}
