@@ -17,7 +17,7 @@ header.site-header {
   top: 0;
   background-color: var(--color-white);
   border-bottom: 3px solid #0f693a6b;
-  z-index: 999999;
+/*   z-index: 999999; */
 }
 
 header .site-branding {
