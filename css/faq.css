@@ -14,6 +14,7 @@
     padding: 30px 20px;
     font-weight: 700;
     list-style: none;
+    position: relative;
 }
 
 .section-faq .item-wrapper summary .icon-drop {
