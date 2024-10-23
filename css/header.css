@@ -162,6 +162,8 @@ header .site-branding .image-wrapper {
 
   .mobile-menu-wrapper {
     display: block;
+    z-index: 9999;
+        position: relative;
   }
 
   .mobile-menu-wrapper .mobile-menu-box.ngumpet {
