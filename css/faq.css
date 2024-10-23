@@ -3,6 +3,10 @@
     gap: 20px;
 }
 
+.section-faq .item-wrapper details {
+    margin-bottom: 20px;
+}
+
 .section-faq .item-wrapper summary {
     border: 1px solid black;
     border-radius: 20px;
@@ -17,6 +21,6 @@
     top: 35px;
 }
 
-.section-faq .item-wrapper .answer-wrapper {
+.section-faq .faq-item .answer-wrapper {
     padding: 30px 20px;
 }
