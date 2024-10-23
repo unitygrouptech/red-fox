@@ -27,6 +27,24 @@
     padding: 30px 20px;
 }
 
+.faq-item {
+    height: 120px;
+}
+
+.answer-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.faq-item[open] {
+    height: 260px;
+}
+
+.faq-item,
+.faq-item .answer-wrapper {
+    transition: height 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 767px) {
     .section-faq .item-wrapper {
         grid-template-columns: 1fr;
