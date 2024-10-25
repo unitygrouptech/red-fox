@@ -59,6 +59,11 @@
   height: 300px;
 }
 
+
+.product-card .product-details .product-title {
+  font-size: 18px !important;
+}
+
 @media screen and (max-width: 767px) {
   .section-page-product .product-inner-wrapper {
     grid-template-columns: 1fr !important;
