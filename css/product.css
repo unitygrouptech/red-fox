@@ -64,6 +64,11 @@
   font-size: 18px !important;
 }
 
+
+.section-kelebihan .product-details {
+  width: auto !important;
+}
+
 @media screen and (max-width: 767px) {
   .section-page-product .product-inner-wrapper {
     grid-template-columns: 1fr !important;
