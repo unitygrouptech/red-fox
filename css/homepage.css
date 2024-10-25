@@ -679,10 +679,6 @@
     width: 100%;
   }
 
-  .section-kelebihan.section-page-product .product-title {
-    width: 100%!important;
-  }
-
   .section-banner-home .container {
     height: 100%;
   }
@@ -749,6 +745,10 @@
     width: 50%;
   }
 
+  .section-kelebihan.section-page-product .product-title {
+    width: 100%!important;
+  }
+
   .productSwiper.productLearning {
     margin-top: 100px;
   }
@@ -765,7 +765,6 @@
 
   .section-hp .hp-title-wrapper .inside-wrapper {
     gap: 15px;
-
   }
 
   .hp-card-item {
