@@ -69,6 +69,13 @@
   width: auto !important;
 }
 
+
+.section-kelebihan .product-card {
+  box-shadow: unset !important;
+  border-radius: 12px;
+  border: 1px solid #e9e9e9;
+}
+
 @media screen and (max-width: 767px) {
   .section-page-product .product-inner-wrapper {
     grid-template-columns: 1fr !important;
