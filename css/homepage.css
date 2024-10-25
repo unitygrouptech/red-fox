@@ -675,7 +675,8 @@
   }
 
   .section-banner-home .content-wrapper,
-  .section-banner-home .section-subtitle {
+  .section-banner-home .section-subtitle,
+  .section-section-kelebihan.section-page-product .product-title {
     width: 100%;
   }
 
