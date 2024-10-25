@@ -45,6 +45,7 @@
   padding: 20px;
   text-align: center;
   border-radius: 0px 0px 8px 8px;
+  font-size: 18px !important
 }
 
 .product-card .product-photo {
