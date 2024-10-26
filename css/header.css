@@ -145,13 +145,13 @@ header .site-branding .image-wrapper {
 
 @media screen and (max-width: 767px) {
   header.site-header{
-  background-color: cornsilk;
+  background-color: green;
   }
   
   header .container {
     width: 90%;
-            z-index: 999999;
-        position: relative;
+    z-index: 999999;
+    position: relative;
   }
 
   header .site-branding {
