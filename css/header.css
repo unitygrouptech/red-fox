@@ -146,7 +146,6 @@ header .site-branding .image-wrapper {
 @media screen and (max-width: 767px) {
   header .container {
     width: 90%;
-    background-color: red;
   }
 
   header .site-branding {
