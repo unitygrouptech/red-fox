@@ -170,6 +170,7 @@ header .site-branding .image-wrapper {
 
   header .site-branding .image-wrapper img{
     object-fit: contain!important;
+  }
 
   .desktop-menu-wrapper {
     display: none !important;
