@@ -152,8 +152,8 @@ header .site-branding .image-wrapper {
     width: 90%;
     z-index: 999999;
     position: relative;
-/*     background-color: green; */
-    grid-template-columns: 50% 50%;
+/*     background-color: green; 
+    grid-template-columns: 50% 50%;*/
   }
 
   header .site-branding {
