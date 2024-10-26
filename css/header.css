@@ -150,6 +150,8 @@ header .site-branding .image-wrapper {
   
   header .container {
     width: 90%;
+            z-index: 999999;
+        position: relative;
   }
 
   header .site-branding {
