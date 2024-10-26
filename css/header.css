@@ -177,7 +177,7 @@ header .site-branding .image-wrapper {
     display: block!important;
     z-index: 99999;
     position: relative;
-    background-color: cornsilk;
+/*     background-color: cornsilk; */
   }
 
   .mobile-menu-wrapper .mobile-menu-box.ngumpet {
