@@ -144,6 +144,10 @@ header .site-branding .image-wrapper {
 }
 
 @media screen and (max-width: 767px) {
+  header.site-header{
+  background-color: cornsilk;
+  }
+  
   header .container {
     width: 90%;
   }
