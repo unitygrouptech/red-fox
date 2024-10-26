@@ -152,6 +152,7 @@ header .site-branding .image-wrapper {
     width: 90%;
     z-index: 999999;
     position: relative;
+    background-color: cornsilk;
   }
 
   header .site-branding {
