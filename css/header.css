@@ -167,9 +167,10 @@ header .site-branding .image-wrapper {
   }
 
   .mobile-menu-wrapper {
-    display: block;
-    z-index: 9999;
-        position: relative;
+    display: block!important;
+    z-index: 99999;
+    position: relative;
+    background: cornflake;
   }
 
   .mobile-menu-wrapper .mobile-menu-box.ngumpet {
