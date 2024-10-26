@@ -157,7 +157,8 @@ header .site-branding .image-wrapper {
   }
 
   header .site-branding {
-    font-size: 30px;
+/*     font-size: 30px; */
+    font-size: 18px;
     max-width: 160px;
     width: 100%;
     grid-template-columns: repeat(2, minmax(min-content, max-content))!important;
