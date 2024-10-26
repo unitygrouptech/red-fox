@@ -160,7 +160,7 @@ header .site-branding .image-wrapper {
     font-size: 30px;
     max-width: 160px;
     width: 100%;
-    }
+    grid-template-columns: minmax(40px, max-content) max-content;
   }
 
   header .site-branding .image-wrapper {
