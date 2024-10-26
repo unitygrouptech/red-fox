@@ -168,6 +168,9 @@ header .site-branding .image-wrapper {
     height: 35px;
   }
 
+  header .site-branding .image-wrapper img{
+    object-fit: contain!important;
+
   .desktop-menu-wrapper {
     display: none !important;
     background-color: cornsilk;
