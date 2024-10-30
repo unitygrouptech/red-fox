@@ -15,6 +15,7 @@
 @import 'blog.css';
 @import 'organization.css';
 @import 'faq.css';
+@import 'single.css';
 
 .page {
   margin: 0 !important;
