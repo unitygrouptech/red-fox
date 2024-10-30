@@ -3,6 +3,10 @@
   margin-top: 143px;
 }
 
+.single-post .section-banner-internal {
+  margin-top: 93px;
+}
+
 body:not(.page-template-about-us) .section-banner-internal .container {
   display: grid;
   height: 400px;
