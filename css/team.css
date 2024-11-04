@@ -48,3 +48,11 @@
   top: 0;
   left: 0;
 } */
+
+.member-card-wrapper .member-card.pre-memory-team{
+  background: #c5c5c5;
+}
+
+.member-card-wrapper .member-card.pre-memory-team .image-wrapper img{
+  object-fit: none;
+}
